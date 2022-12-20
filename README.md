@@ -9,7 +9,7 @@ Links:
 # Overview
 - Performed feature engineering and selection using summary statistics, visualizations, and model feature importances
 - Tuned MARS, decision tree, and boosted models to generate regression and classification ensembles
-- placed 12th and 34th of 178 participants in the regression and classification components, respectively
+- Placed 12th and 34th of 178 participants in the regression and classification components, respectively
 
 ---
 # Detailed Process
