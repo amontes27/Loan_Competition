@@ -1,7 +1,7 @@
-# Loan_Competition
+# Bank Load Repayment Competition
 Python code and process used to generate submissions to 2 Kaggle competitions using bank loan repayment data
 
-Links:
+Competition Links:
 [Regression](https://www.kaggle.com/competitions/data-sci-3-reg-2022-bank-loans),
 [Classification](https://www.kaggle.com/competitions/data-sci-3-classification-2022-loan-repayment)
 
