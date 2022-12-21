@@ -13,7 +13,7 @@ Links:
 
 ---
 # Detailed Process
-## Regression Problem
+## Regression Problem (see [code](Regression_Competition_Code.ipynb))
 ### Data Analysis and Cleaning
 I started my model-building process by concatenating the train and test data and creating histograms, boxplots, and catplots to visualize the distribution of each predictor in the dataset. For some categorical predictors with many levels such as addr_state and emp_title, I created an “other” category for levels with relatively few occurrences. I then visualized the relationship between each predictor and money_made_inv using scatterplots and boxplots.
 
@@ -24,7 +24,7 @@ After building base models (MARS and decision tree) containing all the predictor
 For a single model approach, I found that using K-fold cross-validation to tune a MARS model with 500 max_terms and a max_degree of 4 produced the best results in my predictions. After this, I explored additional model types and ensemble methods to improve it. Overall, stacking the MARS model with a pruned decision tree provided the best submission results. This was likely because a pruned tree provided a simple model that balanced out the more complex interactions between predictors in the MARS model, creating more accurate predictions.
 
 
-## Classification Problem
+## Classification Problem (see [code](Classification_Competition_Code.ipynb))
 ### Data Analysis and Cleaning
 I used the same methods as in the regression problem to visualize the predictors’ distributions and consolidate categorical variable levels. I also visualized each predictor’s distribution for both categories of hi_int_prncp_pd with scatterplots and boxplots. 
 
