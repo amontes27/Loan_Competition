@@ -1,4 +1,4 @@
-# Bank Load Repayment Competitions
+# Bank Loan Repayment Competitions
 Python code and process used to generate submissions to 2 Kaggle competitions using bank loan repayment data
 
 Competition links:
